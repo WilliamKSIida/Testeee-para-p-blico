@@ -2,7 +2,7 @@ module pwm(clk, reset, duty_cycle, saida);
 
 	input clk;
 	input reset;
-	input [7:0] duty_cycle;
+	input [7:0] duty_cycle; // Exemplo comentário
 	output saida;
 	
 	reg [7:0] contador; // de 0 a 2^N
